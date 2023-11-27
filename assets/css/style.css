@@ -425,7 +425,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero {
-  background: url(../img/ring.jpg) center no-repeat;
+  background: url(../img/fondo-portfolio/Python\ \ \ Programming\ Wallpaper\ 35141649.jpg) center no-repeat;
   height: 100%;
   width: 100%;
   display: table;
@@ -599,6 +599,10 @@ html, body {
  */
 .site-section {
   padding: 100px 0;
+}
+
+.site-section.section-counters {
+  padding: 30px;
 }
 
 .site-section h2 {
@@ -1770,7 +1774,7 @@ html, body {
     content: none;
   }
   .timeline > li .timeline-rectangle {
-    disply: none;
+    display: none;
   }
 }
 
@@ -2036,7 +2040,7 @@ html, body {
 
 /* Sections background: Quote */
 .section-quote {
-  background: url(../img/quote.jpg) center no-repeat fixed;
+  background: url(../img/fondo-portfolio/12067350_4884837.jpg) center no-repeat fixed;
 }
 
 .section-quote p {
@@ -2050,7 +2054,7 @@ html, body {
 
 /* Sections background: Me */
 .section-me {
-  background: url(../img/portfolio-7.jpg) center no-repeat fixed;
+  background: url(../img/fondo-portfolio/3608788.jpg) center no-repeat fixed;
 }
 
 .section-me h2 {
