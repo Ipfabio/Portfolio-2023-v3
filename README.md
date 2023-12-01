@@ -488,3 +488,33 @@ Skill Section
             </div>
         </section>
 --------
+
+--------
+Contact Section
+        <section class="site-section section-contact" id="contact">
+            <div class="container">
+                <h2>CONTACT ME</h2>
+                <p class="section-subtitle"><span>Here i am</span></p>
+                <div class="row">
+                    <form>
+                        <div class="col-md-4">
+                            <input class="form-control" type="text" placeholder="Name" required>
+                        </div>
+                        <div class="col-md-4">
+                            <input class="form-control" type="email" placeholder="Email" required>
+                        </div>
+                        <div class="col-md-4">
+                            <input class="form-control" type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea class="form-control" placeholder="Your Message"  required></textarea>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <button class="btn btn-inverted">Send Message</button>
+                        </div>  
+                    </form>
+                </div>
+            </div>
+        </section>
+q--------
