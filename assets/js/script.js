@@ -93,22 +93,53 @@ $(function () {
         prevArrow: '<button class="slick rectangle slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></button>'
     });
 
+    // $('.clients-carousel').slick({
+    //     arrows: false,
+    //     slidesToShow: 6,
+    //     responsive: [ {
+    //         breakpoint : 992,
+    //         settings: {
+    //             slidesToShow: 2
+    //         }
+    //     },
+    //     {
+    //         breakpoint : 480,
+    //         settings: {
+    //             slidesToShow: 1
+    //         }
+    //   }]
+    // });
+
+    // Configuración de Slick para movimiento constante y fluido
     $('.clients-carousel').slick({
-        arrows: false,
         slidesToShow: 5,
-        responsive: [ {
-            breakpoint : 992,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 0, // Establece el tiempo de espera en 0 para un desplazamiento constante
+        speed: 2000, // Controla la velocidad del desplazamiento (valor alto para movimiento constante)
+        cssEase: 'linear', // Hace que el desplazamiento sea lineal y continuo
+        arrows: false, // Puedes mostrar o ocultar las flechas de navegación
+        infinite: true, // Hace que el carrusel se desplace infinitamente
+        initialSlide: 0, // Establece la imagen inicial (puedes ajustar según tu preferencia)
+        variableWidth: true, // Permite que los elementos tengan un ancho variable
+        centerMode: true, // Coloca el elemento central en el centro
+        responsive: [
+        {
+            breakpoint: 768,
             settings: {
-                slidesToShow: 2
+            slidesToShow: 3
             }
         },
         {
-            breakpoint : 480,
+            breakpoint: 480,
             settings: {
-                slidesToShow: 1
+            slidesToShow: 2
             }
-      }]
+        }
+        ]
     });
+  
+  
 
 //shuffle.js
     var shuffleme = (function( $ ) {
