@@ -431,6 +431,7 @@ html, body {
   display: table;
   position: relative;
   background-size: cover;
+  z-index: 0;
 }
 
 .background-overlay:before {
@@ -449,6 +450,7 @@ html, body {
   display: table-cell;
   vertical-align: middle;
   position: relative;
+  z-index: 1;
 }
 
 .hero-content h1 {
