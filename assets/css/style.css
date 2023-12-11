@@ -424,19 +424,15 @@ html, body {
 
 /* HERO
 ================================================== */
-/* .hero {
-  background: url(../img/fondo-portfolio/Fondo.jpg) center no-repeat;
+.hero {
+  /* background: url(../img/fondo-portfolio/Fondo.jpg) center no-repeat; Para img de fondo*/
   height: 100%;
   width: 100%;
   display: table;
   position: relative;
   background-size: cover;
-} */
-
-.hero{
-  min-height: 100vh;
-  position: relative;
 }
+
 
 video{
   position: absolute;
@@ -516,6 +512,7 @@ video{
   width: 20px;
   margin: 0 auto;
   text-align: center;
+  z-index: 3;
 }
 
 .hero-arrow a {
