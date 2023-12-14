@@ -429,7 +429,7 @@ Twitter Section
 
 Skill Section
 ------
- <section class="site-section section-skills">
+<!-- <section class="site-section section-skills">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
@@ -442,7 +442,7 @@ Skill Section
                             <p>Web design</p>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" data-transitiongoal="100">
-                                </div>
+                                </div> -->
                             </div><!-- /.progress -->
                         </div><!-- /.progress-group -->
 
@@ -485,7 +485,7 @@ Skill Section
 
 --------
 Contact Section
-        <section class="site-section section-contact" id="contact">
+      <!--  <section class="site-section section-contact" id="contact">
             <div class="container">
                 <h2>CONTACT ME</h2>
                 <p class="section-subtitle"><span>Here i am</span></p>
@@ -502,7 +502,7 @@ Contact Section
                         </div>
                         <div class="col-sm-12">
                             <textarea class="form-control" placeholder="Your Message"  required></textarea>
-                        </div>
+                        </div> -->
 
                         <div class="col-sm-12">
                             <button class="btn btn-inverted">Send Message</button>
@@ -511,4 +511,4 @@ Contact Section
                 </div>
             </div>
         </section>
-q--------
+--------
